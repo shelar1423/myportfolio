@@ -1,59 +1,89 @@
 .container{
-   
+   position: static;
     height: 100vh;
     justify-content: space-between;
     gap: 2rem;
     background-image: url(https://wallpaperaccess.com/full/1954743.jpg);
     background-size:cover;
     background-position: center;
+    
 
     
+    
+}
+.body{
+    background-color: black;
     
 }
 *{
     padding: 0%;
     margin: 0%; 
-    overflow-x: hidden;
+    overflow-x: hidden; 
+
 
     
 }
+.container {
+    overflow-y: hidden;
+}
+    .projects{
+        overflow-y: hidden;
+    }
+
+
+nav>ul>li>a{
+    font-size: 1rem;
+}
+
 
 nav ul li{
 
         list-style-type: none;
             display: inline-block;
            padding: 10px 20px; 
+         
         }  
  nav{
     display: flex;
     flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
-   padding-top: 40px;
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-top: 10px;
+   padding-left: 3%;
+
    color:white;
     font-weight: bold;
-    flex-shrink: 0%;
+ 
  }
+ .a{
+    font-size: small;
+    font-family: 'Kalam', cursive;
+ }
+nav>h1{
+    font-size: small;
+    font-family: 'Kalam', cursive;
 
+}
 nav ul li a{
     color: whitesmoke;
     text-decoration: none;
+    font-size: 1rem;
+    text-align: right;
 
 }
 nav ul li a:hover{
     color: red;
     transition: .3s;
+
 }
 .content
 {
-  text-align: start;
-  padding: 100px;
-  margin: 50px;
+  text-align:start;
+  padding-left: 60px;
+  padding-top: 60px;
   color: white;
   font-weight: bold;
- font-size: 3rem;
+ font-size: 2rem;
 font-family: 'Bebas Neue', sans-serif;
 word-spacing:10px
 
@@ -62,9 +92,10 @@ word-spacing:10px
     color: red;
     transition: .3s;
     
-}
+}   
 .content h4{
-   
+   padding-top: 0%;
+   margin-top: 0%;
     padding-bottom: 10px;
 }
 .content p{
@@ -72,7 +103,6 @@ word-spacing:10px
     padding-left:50px;
 }
 .content h1{
-    color: rgba(60, 13, 249, 0.697);
     padding-bottom: 10px;
         background-clip: text;
             -webkit-background-clip: text;
@@ -84,12 +114,12 @@ word-spacing:10px
         .web
         {
             color:#6a00ffbe;
-
+            
         }
     .projects{
       
         color: white;
-        height: 100vh;
+        height: 120vh;
 background-image: url(https://media.istockphoto.com/id/1036708146/photo/depth-texture-violet-abstract-wallpaper-background.jpg?b=1&s=170667a&w=0&k=20&c=BGxXa97vpnX6A20TQQMI5Fs19hGkVIMKu_ljNeH1oAA=);
 background-position: center;   
 background-size: cover    ; 
@@ -125,8 +155,8 @@ text-align: center;
 .rp {
     margin-top: 15px;
     width: 25%;
-    border: 10px solid purple;
-        border-radius: 10%;
+    border: 10px solid #EBD8B2;
+        border-radius: 12%;
         padding-bottom: 10px;
 }
 
@@ -134,70 +164,7 @@ text-align: center;
 .projects img{
     width: 100%;
     padding-top: 0%;
-    border-top-left-radius: 9%;
-    border-top-right-radius: 9%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 6%;
 }
 
- @media only screen and (min-width: 200px) and (max-width: 767px){
-    *{ flex-shrink: 0;
-    padding: 0%;
-    margin: 0%; 
-   
-
-    
-}
-.container {
-
-    height: 100vh;
-    justify-content: space-between;
-    gap: 1rem;
-    background-image: url(https://wallpaperaccess.com/full/1954743.jpg);
-    overflow-y: hidden;
-  
-
-    ;
- 
-
-
-
-}
-nav{
-    display: block;
-    justify-content:center;
-    align-items: center;
-}
-nav>h1{
-    font-size:2rem;
-    text-align: center;
-}
-nav>ul>li{
- padding-left: 50px;
- 
-}
-nav>ul {
-    margin-top: 50px;
-
-}
-.content{
-    margin-top: 80px;
-    font-size: 2rem;
-    padding: 0;
-overflow-y: hidden;
-    margin-left: 50px;
-}
-.content>p{
-   
-color: #6a00ffbe;
-}
-.repo{
-    display: block;
-
-
-}
-.rp{
-    width: 80%;
-    border: 5px solid purple;
-   margin-left: 50px;
-}
-
-}
