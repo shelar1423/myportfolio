@@ -1,0 +1,203 @@
+.container{
+   
+    height: 100vh;
+    justify-content: space-between;
+    gap: 2rem;
+    background-image: url(https://wallpaperaccess.com/full/1954743.jpg);
+    background-size:cover;
+    background-position: center;
+
+    
+    
+}
+*{
+    padding: 0%;
+    margin: 0%; 
+    overflow-x: hidden;
+
+    
+}
+
+nav ul li{
+
+        list-style-type: none;
+            display: inline-block;
+           padding: 10px 20px; 
+        }  
+ nav{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left: 10%;
+   padding-right: 10%;
+   color:white;
+    font-weight: bold;
+    flex-shrink: 0%;
+ }
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+.content
+{
+  text-align: start;
+  padding: 100px;
+  margin: 50px;
+  color: white;
+  font-weight: bold;
+ font-size: 3rem;
+font-family: 'Bebas Neue', sans-serif;
+word-spacing:10px
+
+}
+.shelar:hover{
+    color: red;
+    transition: .3s;
+    
+}
+.content h4{
+   
+    padding-bottom: 10px;
+}
+.content p{
+    padding-bottom: 10px;
+    padding-left:50px;
+}
+.content h1{
+    color: rgba(60, 13, 249, 0.697);
+    padding-bottom: 10px;
+        background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: url(https://2.bp.blogspot.com/-YJMEp4fAXv4/UHZUwI3JaII/AAAAAAAALTw/16KPUHLuXSc/s1600/Galaxy+Desktop+Wallpapers+1.jpg);
+        font-family: 'Bebas Neue', sans-serif;
+
+        }
+        .web
+        {
+            color:#6a00ffbe;
+
+        }
+    .projects{
+      
+        color: white;
+        height: 100vh;
+background-image: url(https://media.istockphoto.com/id/1036708146/photo/depth-texture-violet-abstract-wallpaper-background.jpg?b=1&s=170667a&w=0&k=20&c=BGxXa97vpnX6A20TQQMI5Fs19hGkVIMKu_ljNeH1oAA=);
+background-position: center;   
+background-size: cover    ; 
+text-align: center;
+        
+   
+    }
+    .repo{
+    display: flex;
+    gap: 2rem;  
+    justify-content: center;
+}
+.projects>p {
+    width: 100%;
+    text-align: start;
+    font-size: 4rem;
+    padding-left: 20px;
+    margin-top: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    word-spacing: 20px;
+    margin-top: 10px;
+
+
+}
+
+.projects>h2 {
+    text-align: start;
+    padding-left: 150px;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 10px;
+}
+.rp {
+    margin-top: 15px;
+    width: 25%;
+    border: 10px solid purple;
+        border-radius: 10%;
+        padding-bottom: 10px;
+}
+
+
+.projects img{
+    width: 100%;
+    padding-top: 0%;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+ @media only screen and (min-width: 200px) and (max-width: 767px){
+    *{ flex-shrink: 0;
+    padding: 0%;
+    margin: 0%; 
+   
+
+    
+}
+.container {
+
+    height: 100vh;
+    justify-content: space-between;
+    gap: 1rem;
+    background-image: url(https://wallpaperaccess.com/full/1954743.jpg);
+    overflow-y: hidden;
+  
+
+    ;
+ 
+
+
+
+}
+nav{
+    display: block;
+    justify-content:center;
+    align-items: center;
+}
+nav>h1{
+    font-size:2rem;
+    text-align: center;
+}
+nav>ul>li{
+ padding-left: 50px;
+ 
+}
+nav>ul {
+    margin-top: 50px;
+
+}
+.content{
+    margin-top: 80px;
+    font-size: 2rem;
+    padding: 0;
+overflow-y: hidden;
+    margin-left: 50px;
+}
+.content>p{
+   
+color: #6a00ffbe;
+}
+.repo{
+    display: block;
+
+
+}
+.rp{
+    width: 80%;
+    border: 5px solid purple;
+   margin-left: 50px;
+}
+
+}
