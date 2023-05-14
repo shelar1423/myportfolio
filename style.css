@@ -1,137 +1,152 @@
-.container{
-   position: static;
+.container {
+    position: static;
     height: 100vh;
     justify-content: space-between;
     gap: 2rem;
     background-image: url(https://wallpaperaccess.com/full/1954743.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    
 
-    
-    
+
+
+
 }
-.body{
+
+.body {
     background-color: black;
-    
+
 }
-*{
+
+* {
     padding: 0%;
-    margin: 0%; 
-    overflow-x: hidden; 
+    margin: 0%;
+    overflow-x: hidden;
 
 
-    
+
 }
+
 .container {
     overflow-y: hidden;
 }
-    .projects{
-        overflow-y: hidden;
-    }
+
+.projects {
+    overflow-y: hidden;
+}
 
 
-nav>ul>li>a{
+nav>ul>li>a {
     font-size: 1rem;
 }
 
 
-nav ul li{
+nav ul li {
 
-        list-style-type: none;
-            display: inline-block;
-           padding: 10px 20px; 
-         
-        }  
- nav{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav {
     display: flex;
     flex-wrap: wrap;
-   align-items: center;
-   justify-content: space-between;
-   padding-top: 10px;
-   padding-left: 3%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
 
-   color:white;
+    color: white;
     font-weight: bold;
- 
- }
- .a{
-    font-size: small;
+
+}
+
+.a {
+    font-size: 1rem;
     font-family: 'Kalam', cursive;
- }
-nav>h1{
+}
+
+nav>h1 {
     font-size: small;
     font-family: 'Kalam', cursive;
 
 }
-nav ul li a{
+
+nav ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 1rem;
     text-align: right;
 
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: red;
     transition: .3s;
 
 }
-.content
-{
-  text-align:start;
-  padding-left: 60px;
-  padding-top: 60px;
-  color: white;
-  font-weight: bold;
- font-size: 2rem;
-font-family: 'Bebas Neue', sans-serif;
-word-spacing:10px
 
+.content {
+    text-align: start;
+    padding-left: 170px;
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    word-spacing: 10px
 }
-.shelar:hover{
+
+.shelar:hover {
     color: red;
     transition: .3s;
-    
-}   
-.content h4{
-   padding-top: 0%;
-   margin-top: 0%;
-    padding-bottom: 10px;
-}
-.content p{
-    padding-bottom: 10px;
-    padding-left:50px;
-}
-.content h1{
-    padding-bottom: 10px;
-        background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            background-image: url(https://2.bp.blogspot.com/-YJMEp4fAXv4/UHZUwI3JaII/AAAAAAAALTw/16KPUHLuXSc/s1600/Galaxy+Desktop+Wallpapers+1.jpg);
-        font-family: 'Bebas Neue', sans-serif;
 
-        }
-        .web
-        {
-            color:#6a00ffbe;
-            
-        }
-    .projects{
-      
-        color: white;
-        height: 120vh;
-background-image: url(https://media.istockphoto.com/id/1036708146/photo/depth-texture-violet-abstract-wallpaper-background.jpg?b=1&s=170667a&w=0&k=20&c=BGxXa97vpnX6A20TQQMI5Fs19hGkVIMKu_ljNeH1oAA=);
-background-position: center;   
-background-size: cover    ; 
-text-align: center;
-        
-   
-    }
-    .repo{
+}
+
+.content h4 {
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 10px;
+}
+
+.content p {
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.content h1 {
+    padding-bottom: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(https://2.bp.blogspot.com/-YJMEp4fAXv4/UHZUwI3JaII/AAAAAAAALTw/16KPUHLuXSc/s1600/Galaxy+Desktop+Wallpapers+1.jpg);
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.web {
+    color: #6a00ffbe;
+
+}
+
+.projects {
+
+    color: white;
+    height: 120vh;
+    background-image: url(https://media.istockphoto.com/id/1036708146/photo/depth-texture-violet-abstract-wallpaper-background.jpg?b=1&s=170667a&w=0&k=20&c=BGxXa97vpnX6A20TQQMI5Fs19hGkVIMKu_ljNeH1oAA=);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.repo {
     display: flex;
-    gap: 2rem;  
+    gap: 2rem;
     justify-content: center;
 }
+
 .projects>p {
     width: 100%;
     text-align: start;
@@ -152,19 +167,65 @@ text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     margin-top: 10px;
 }
+
 .rp {
     margin-top: 15px;
     width: 25%;
     border: 10px solid #EBD8B2;
-        border-radius: 12%;
-        padding-bottom: 10px;
+    border-radius: 12%;
+    padding-bottom: 10px;
 }
 
-
-.projects img{
+.projects img {
     width: 100%;
     padding-top: 0%;
     border-top-left-radius: 10%;
     border-top-right-radius: 6%;
 }
-
+@media(max-width:700px) and (min-width:300px)
+{
+    .container{
+        height: 50vh;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+     justify-content: center;
+     align-items: center;
+          padding-left: 0%;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            font-family: 'Bebas Neue', sans-serif;
+            word-spacing: 10px;
+            padding-top: 20px;
+        }
+        .content>p{
+            font-size: large;
+            padding-left: 20px;
+            color: #6a00ffbe;
+            
+        }
+     .projects{
+        height: auto;
+     }
+        .projects>p{
+            font-size: 2rem;
+         
+        }
+        .projects>h2
+        {
+            font-size: 3rem;
+        }
+        .repo{
+            display: flex;
+        
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .rp{
+            width: 80%;
+        }
+     
+}
