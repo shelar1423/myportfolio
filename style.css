@@ -195,17 +195,15 @@ nav ul li a:hover {
           padding-left: 0%;
             color: white;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 2rem;
             font-family: 'Bebas Neue', sans-serif;
             word-spacing: 10px;
             padding-top: 20px;
         }
-        .content>p{
-            font-size: large;
-            padding-left: 20px;
-            color: #6a00ffbe;
-            
+        .content>h1{
+            padding-bottom: 0%;
         }
+    
      .projects{
         height: auto;
      }
@@ -215,17 +213,46 @@ nav ul li a:hover {
         }
         .projects>h2
         {
-            font-size: 3rem;
+            font-size: 2rem;
         }
-        .repo{
-            display: flex;
-        
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .rp{
-            width: 80%;
-        }
-     
-}
+           .repo {
+    
+               display: inline-flex;
+               flex-direction: column;
+               gap: 5rem;
+            
+               font-size: xx-small;
+               justify-content: center;
+                align-content:center;
+                align-items: center;
+              
+           }
+    
+           .rp {
+    
+  
+               gap: rem;
+               width: 50%;
+               height: 10%;
+               border-radius: 10%;
+               margin-left: 20px;
+    
+           }
+    
+           .projects img {
+    
+               padding-top: 0%;
+               border-top-left-radius: 8%;
+               border-top-right-radius: 6%;
+           }
+           .rp>p{
+            text-align:unset;
+            float: right;
+           }
+           .rp>a>img{
+            float:right;
+           }
+       
+       
+           }
+ 
